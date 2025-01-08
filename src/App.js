@@ -12,7 +12,7 @@ function Image() {
   };
 
   const imageStyle = {
-    maxWidth: '900px',
+    maxWidth: '420px',
     width: '100%',
     height: 'auto',
     marginBottom: '0px', // 이미지 아래 여백 제거
@@ -25,9 +25,9 @@ function Image() {
     top: 0,
     left: '50%',
     transform: 'translateX(-50%)',
-    maxWidth: '900px',
+    maxWidth: '420px',
     width: '100%',
-    height: '100px',
+    height: '60px',
     backgroundColor: '#222222',
     color: '#ffffff',
     display: 'flex',
@@ -40,12 +40,13 @@ function Image() {
   };
 
   const logoStyle = {
-    width: '100px', // 로고 이미지 높이
+    width: '60px', // 로고 이미지 높이
     paddingLeft: '26px',
   };
 
   const hamburgerStyle = {
-    fontSize: '50px',
+    fontSize: '40px',
+    marginBottom: '8px',
     cursor: 'pointer',
     color: '#515151', // 햄버거바 색깔 변경
   };
@@ -53,10 +54,10 @@ function Image() {
   const headerButtonStyle = {
     backgroundColor: '#FF181C', // 버튼 배경색
     color: '#FFFFFF', // 버튼 폰트 색상
-    padding: '10px 20px',
+    padding: '6px 12px',
     borderRadius: '97px',
     border: 'none',
-    fontSize: '16px',
+    fontSize: '12px',
     fontWeight: 'bold',
     cursor: 'pointer',
   };
