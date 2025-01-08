@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Image() {
-  const imageCount = 7;
+  const imageCount = 8;
 
   const containerStyle = {
     display: 'flex',
