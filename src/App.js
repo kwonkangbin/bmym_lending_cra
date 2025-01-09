@@ -1,13 +1,13 @@
 import React from 'react';
 
 function Image() {
-  const imageCount = 8;
+  const imageCount = 19;
 
   const containerStyle = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginTop: '120px', // 헤더 아래로 이미지 배치
+    paddingTop: '60px', // 헤더 아래로 이미지 배치
     margin: '0px',
   };
 
