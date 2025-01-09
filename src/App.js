@@ -64,7 +64,7 @@ function Image() {
 
   const buttonStyle = {
     position: 'absolute', // 버튼을 이미지 중앙에 배치
-    top: '92%',
+    top: '75%',
     left: '50%',
     transform: 'translate(-50%, -50%)', // 버튼을 정확히 중앙에 배치
     width: '80%',
